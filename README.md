@@ -3,7 +3,7 @@ NeoTrinkey code for simple adventure gaming
 
 * intput.py - pass a string "choices" to intpt(choices) and return one of the letters to calling routine. eg intpt("nsew") and you'll get back n,s,e,or w. This can be navigation.
 * wise.py - choose a line from a text file. This file will be a linear list of an AxA array. Program will be used for description of current location
-* advent.py - (code.py when running). Tracks user location in AxB array, calls wise.py to find and print location, then offers chance to move to N,S,E,W direction and retrieves choice from intpt(), calculates new location and prints it.
+* advent.py - (code.py when running). Tracks user location in AxA array, calls wise.py to find and print location, then offers chance to move to N,S,E,W direction and retrieves choice from intpt(), calculates new location and prints it.
 * prt.py - allows printing to REPL or via HID as typed output.
 
 Code is a framework for having the NeoTrinkey navigate a space - dungeon, forest, spaceship. 
