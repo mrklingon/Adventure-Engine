@@ -33,7 +33,7 @@ The map below shows the rooms for ship.adv, and the gaps in the walls show which
 
 ![image](https://github.com/user-attachments/assets/8e362919-8d09-4e41-b0dc-c9bd03c3a1b2)
 
-When running, you are given "Current location:" and the offered the directions you can go. Touching pad #1 toggles between choices, touching pad #2 chooses the current one.  
+When running, you are given "Current location:" and then offered the directions you can go. Touching pad #1 toggles between choices, touching pad #2 chooses the current one.  
 For example:   
 ```
 Current location: wardroom
