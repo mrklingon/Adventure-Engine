@@ -11,5 +11,18 @@ Code is a framework for having the NeoTrinkey navigate a space - dungeon, forest
 
 Set map=[file name] of list of room descriptions  
 set radius=X where X is the size of the matrix. 3x3 or 5x5 for example  
-set px and py to starting room.   eg. for a 3x3 map px=1 py=1 will set the start in the center of the map
+set px and py to starting room.   eg. for a 3x3 map px=1 py=1 will set the start in the center of the map  
 set WRAP = True for the map being a torus, and False for the map having edges you can't go beyond.  
+sample map "ship.adv" defines a 3x3 map:  
+
+'''
+communications bay|e
+cockpit|wse
+computer and navigation bay|w
+sleeping quarters|e
+wardroom
+galley|w
+storage|e
+engines|new
+power resources|w
+'''
