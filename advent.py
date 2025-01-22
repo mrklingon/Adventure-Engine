@@ -2,13 +2,12 @@ import time
 import random
 import board
 import neopixel
-import random
 from ncount import *
 from prt import *
 from wise import *
 from intput import *
 
-
+# important: set radius to define size of map. set map to the file of room descriptions
 radius = 3 # change to width of A x A matrix of rooms. 
 map = "ship.adv"  #change to file listing rooms for adventure
 
@@ -78,18 +77,18 @@ if REPL == False:
         if touch2.value:
             Val = Val + 2
 (location,cmds)=where(px,py)
-prt("you are in "+location,REPL)
+prt("Current location: "+location,REPL)
 
 while True:
   
   
-    prt("what do you want to do? "+cmds+"?",REPL)
+    prt("Next action? "+cmds+"?",REPL)
     dir = intpt(cmds,REPL)
     compthink()
     
     chgloc(dir)
     (location,cmds)=where(px,py)
     
-    prt("you are in "+location,REPL)
+    prt("Current location: "+location,REPL)
 
 
