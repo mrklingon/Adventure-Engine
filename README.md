@@ -15,7 +15,7 @@ set px and py to starting room.   eg. for a 3x3 map px=1 py=1 will set the start
 set WRAP = True for the map being a torus, and False for the map having edges you can't go beyond.  
 sample map "ship.adv" defines a 3x3 map:  
 
-'''
+```
 communications bay|e
 cockpit|wse
 computer and navigation bay|w
@@ -25,4 +25,4 @@ galley|w
 storage|e
 engines|new
 power resources|w
-'''
+```
