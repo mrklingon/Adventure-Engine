@@ -26,3 +26,8 @@ storage|e
 engines|new
 power resources|w
 ```
+
+**Note** some lines end with a "|" plus directions that can be followed from the room. If the room ends with "|e" for example, you can only leave to the East. If the line ends with no |+direction(s) the default is you can leave NSEW. (for example, the wardroom in this case).
+
+![image](https://github.com/user-attachments/assets/8e362919-8d09-4e41-b0dc-c9bd03c3a1b2)
+
