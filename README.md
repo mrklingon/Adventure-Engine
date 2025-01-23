@@ -6,6 +6,7 @@ NeoTrinkey code for simple adventure gaming
 * advent.py - (code.py when running). Tracks user location in AxA array, calls wise.py to find and print location, then offers chance to move to N,S,E,W direction and retrieves choice from intpt(), calculates new location and prints it.
 * prt.py - allows printing to REPL or via HID as typed output.
 * ship.adv - sample map for a 3x3 ship
+* magic.adv - sample map for a 5x5 magical realm. WRAP should be set to True, and radius to 5.
 
 Code is a framework for having the NeoTrinkey navigate a space - dungeon, forest, spaceship. 
 
@@ -60,4 +61,4 @@ Next action? w
 ?
 w!
 ```
-
+<hr>
