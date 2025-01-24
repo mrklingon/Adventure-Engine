@@ -62,3 +62,80 @@ Next action? w
 w!
 ```
 <hr>
+# Magic Adventure Map
+
+Here's another map, that is defined in the repository file "magic.adv"   
+
+![image](https://github.com/user-attachments/assets/601c501b-368a-430c-a3b1-4908c6cbea0a)
+
+To use this map, change map= to **map="magic.adv"**, **radius=5** and **WRAP=True**  
+Turning on WRAP means from some rooms you can go from one edge of the map to the far side. The gaps in the map indicate the directions from each cell that are available.   
+**note** The "tower" room can be exited going 'south'... but NOT entered from the south going north.
+
+Here's a sample run:  
+```
+Current location: Forest south of dungeon
+Next action? ew
+?
+e!
+Current location: Road to castle
+
+Next action? nsew?
+n!
+s!
+Current location: Bridge over river
+Next action? ns
+?
+n!
+s!
+Current location: Road to castle
+
+Next action? nsew?
+n!
+s!
+e!
+w!
+Current location: Forest bank
+
+Next action? nsew?
+n!
+s!
+Current location: Wilds
+Next action? nwe
+?
+n!
+w!
+e!
+Current location: Road to castle
+Next action? wne
+?
+w!
+n!
+e!
+Current location: Wizard's Garden
+Next action? wne
+?
+w!
+n!
+e!
+Current location: Wizard's hut
+
+Next action? nsew?
+n!
+s!
+Current location: Forest
+
+Next action? nsew?
+n!
+s!
+e!
+w!
+Current location: Castle tower looming over kingdom
+Next action? wse
+?
+w!
+Current location: Castle
+Next action? ews
+```
+
+At present the Adventure Engine lets you define and navigate a mapped space. Next steps involve adding appropriate command codes for game-actions and a dispatcher to handle none-movement choices.
