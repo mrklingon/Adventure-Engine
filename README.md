@@ -138,4 +138,4 @@ Current location: Castle
 Next action? ews
 ```
 
-At present the Adventure Engine lets you define and navigate a mapped space. Next steps involve adding appropriate command codes for game-actions and a dispatcher to handle none-movement choices.
+At present the Adventure Engine lets you define and navigate a mapped space. Next steps involve adding appropriate command codes for game-actions and a dispatcher to handle non-movement choices.
